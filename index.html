@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- favi-->
+        <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        .b{
+        background: #f9fcff;
+        margin: 5px;
+        padding: 20px 10px;
+        border-radius: 20px;
+        box-shadow: 0px 1px 9px 0 rgba(0, 0, 0, 0.08);
+        }
+        
+        li{
+            list-style: none;
+        }
+        .full {
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+         }
+
+        .jobs-li p{
+            font-size: 8px;
+        }
+
+        .jobs-li .b, .tests-li .b{
+            padding: 0px;
+        }
+
+        .tests-li .fa{
+            margin: 0px 7px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" onscroll="nav()">
+            <a class="navbar-brand" href="#">LOGO</a>
+    
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-capitalize p-2" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize p-2" href="articles.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize p-2" href="create_article.html">Request</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize p-2" href="myac.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize p-2" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+    
+                    <!-- Button trigger modal -->
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize p-2" data-toggle="modal" data-target="#login">
+                            Login
+                        </a>
+                    </li>
+    
+                    <!-- Button trigger modal -->
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#register">
+                            Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-5 col-md-2 col-lg-10 b">Quality Results</div>
+                        <div class="col-5 col-md-2 col-lg-10 b">Analytics</div>
+                        <div class="col-5 col-md-2 col-lg-10 b">Affordable Pricing</div>
+                        <div class="col-5 col-md-2 col-lg-10 b">Easy To Use</div>
+                        <div class="col-5 col-md-2 col-lg-10 b">Free Support</div>
+                        <div class="col-10 b"><img src="images/details-1-office-worker.svg" alt="" class="img-fluid"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="row" style="flex-wrap: wrap-reverse;">
+                        <div class="col-lg-6 col-md-6 col-12 my-lg-0 my-4">
+                            <div class="my-1">
+                                <div class="col-sm-12">
+                                    <div class="full text-center">
+                                        <div class="heading_main center_head_border heading_style_1">
+                                            <h2><span>Available</span> jobs</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="full">
+                                <li class="jobs-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title">
+                                                    <div><i class="fa fa-facebook"> <img src="images/portfolio.svg" alt="sitas" class="img-fluid" width="32px"> </i></div>
+                                                    <div>
+                                                        <h5 class="card-title-h5">Card title</h5>
+                                                        <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                                                    </div>
+                                                </div>
+                                                
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jobs-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title">
+                                                    <div><i class="fa fa-facebook"> <img src="images/portfolio.svg" alt="sitas" class="img-fluid"
+                                                                width="32px"> </i></div>
+                                                    <div>
+                                                        <h5 class="card-title-h5">Card title</h5>
+                                                        <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                                                    </div>
+                                                </div>
+                                
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jobs-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title">
+                                                    <div><i class="fa fa-facebook"> <img src="images/portfolio.svg" alt="sitas" class="img-fluid"
+                                                                width="32px"> </i></div>
+                                                    <div>
+                                                        <h5 class="card-title-h5">Card title</h5>
+                                                        <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                                                    </div>
+                                                </div>
+                                
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jobs-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title">
+                                                    <div><i class="fa fa-facebook"> <img src="images/portfolio.svg" alt="sitas" class="img-fluid"
+                                                                width="32px"> </i></div>
+                                                    <div>
+                                                        <h5 class="card-title-h5">Card title</h5>
+                                                        <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                                                    </div>
+                                                </div>
+                                
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-12 pt-2"><a href="#" class="about-btn">Load More</a></div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+
+                        <!-- <span>Available</span> tests -->
+                        <div class="col-lg-6 col-md-6 col-12 my-lg-0 my-4">
+                            <div class="my-1">
+                                <div class="col-sm-12">
+                                    <div class="full text-center">
+                                        <div class="heading_main center_head_border heading_style_1">
+                                            <h2><span>Available</span> tests</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="full">
+                                <li class="tests-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title ">
+                                                    <i class="fa fa-facebook"><img src="images/lightning.svg" alt="sitas" class="img-fluid"
+                                                            width="32px"></i>
+                                                    <h5 class="card-title-h5">Card title</h5>
+                                                </div>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                                <i class="fa fa-facebook float-right"> <img src="images/stopwatch.svg" alt="stopwatch" class="img-fluid" width="17px">
+                                                    30 Min</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="tests-li">
+                                    <div class="col-12 b">
+                                        <div class="card border-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="row card-title">
+                                                    <i class="fa fa-facebook"> <img src="images/portfolio.svg" alt="sitas" class="img-fluid"
+                                                            width="32px"> </i>
+                                                    <h5 class="card-title-h5">Card title</h5>
+                                                </div>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                    the card's
+                                                    content.</p>
+                                                <i class="fa fa-facebook float-right"> <img src="images/stopwatch.svg" alt="stopwatch" class="img-fluid" width="17px">
+                                                    30 Min</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-12 pt-3"><a href="#" class="about-btn">Load More</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="col-lg-12 col-md-6 col-12">
+                        <div class="row my-1">
+                            <div class="col-sm-12">
+                                <div class="full text-center">
+                                    <div class="heading_main center_head_border heading_style_1">
+                                        <h2>Recent <span>Activity</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ul class="full">
+                                <li><div class="col-12 b">``</div></li>
+                                <li><div class="col-12 b">``</div></li>
+                                <li><div class="col-12 b">``</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal login -->
+    <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content spl-bt">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="password" name="password"
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal register -->
+    <div class="modal fade" id="register" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content spl-bt">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form my-5" id="form">
+    
+                        <form action="<?php echo base_url(). 'index.php/process/Register' ?>" method="post">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputfname4">First Name</label>
+                                    <input type="text" name="fname" class="form-control" id="fname" pattern=".[A-Za-z]{2,}"
+                                        title="at least Three letter required" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputlname4">Last Name</label>
+                                    <input type="text" name="lname" class="form-control" id="lname" pattern=".[A-Za-z]{1,}"
+                                        title="at least Two letter required" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label> <span id="Avaiblit_email"></span>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputcontact4">Contact</label>
+                                    <input type="text" class="form-control" name="contact" id="contact" pattern=".[0-9]{9}"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" name="address" id="address"
+                                    placeholder="1234 Main St" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" name="City" id="City" required>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select name="state" id="inputState" class="form-control" required>
+                                        <option value="">State</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                        <option value="Daman and Diu">Daman and Diu</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Lakshadweep">Lakshadweep</option>
+                                        <option value="Puducherry">Puducherry</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary text-capitalize">Register</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="pt-2">
+        <footer class="text-center w-100 btn-dark">
+            ©2020 All Right Reserved
+        </footer>
+    </section>
+
+
+    <script>
+        /*
+        $(document).ready(function () {
+
+            $('#email').blur(function () {
+                console.log('ready');
+                var email = $('#email').val();
+
+                $.ajax({
+                    url: "<?php echo base_url(). 'index.php/process/Avaiblitemail' ?>",
+                    method: "POST",
+                    data: { email: email },
+                    success: function (data) {
+                        if (data == '1') {
+                            $('#Avaiblit_email').html('<span style="color: red;">  Already Taken</span><br>');
+                            $('#submit').attr("disabled", true);
+                            alert('email Already Taken')
+                        } else {
+                            $('#Avaiblit_email').html('<span style="color:#9500f3;"></span>');
+                            $('#submit').attr("disabled", false);
+                        }
+                    }
+                })
+            })
+        })
+        */
+    </script>
+
+</body>
+
+</html>
